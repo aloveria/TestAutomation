@@ -11,7 +11,7 @@ public class SampleTest extends BaseClass{
 	public void getPageTitle(){
 		
 		String title = getDriver().getTitle();
-		Assert.assertEquals(title, "Project Management");
+		Assert.assertEquals(title, "Training Portal");
 		disposeDriver();
 	}
 	
